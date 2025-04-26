@@ -2,16 +2,84 @@
     text-align: center; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    background-color: rgb(255, 234, 0);
+    background-color: rgba(255, 234, 0, 0.729);
     border-radius: 20px;
 }
-body{
-    background-color: rgb(244, 220, 172);
+.m1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    
 }
+.m1:hover{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    background:radial-gradient( red , rgba(255, 145, 86, 0.771));
+    border-radius: 90px;
+    color: white;
+    
+}
+
+body{
+    background:linear-gradient(red,blue);
+    
+    
+}
+h1{
+    color: rgb(143, 33, 95);
+}
+
 .about{
     background-color: rgba(230, 255, 250, 0.592);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 8px;
     position: unset;
+}
+button{
+    background:linear-gradient(rgb(242, 179, 97) , rgb(0, 145, 255));
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+}
+button:hover{
+background:linear-gradient(red,blue);
+color: white;
+text-align: center;
+font-family:'Courier New', Courier, monospace;
+width: 150px;
+height: 45px;
+border-radius: 12px;
+}
+.plans{
+    background:linear-gradient(rgb(255, 238, 0),rgba(0, 0, 255, 0.642));
+    border-radius: 90px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: beige;
+}
+.plans:hover{
+    background:linear-gradient(rgba(0, 0, 255, 0.642),rgb(255, 238, 0));
+    border-radius: 90px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 38px;
+    color: beige;
+}
+
+.p1h{
+    background: 2px rgba(255, 255, 255, 0.521);
+    color: rgb(255, 255, 62);
+    text-align: center;
+    font-family:cursive;
+    font-size: 29px;
+    border-radius: 90px;
+}
+.p1{
+    background: 2px rgba(255, 255, 255, 0.521);
+    color: rgb(255, 233, 171);
+    text-align: center;
+    border-radius: 90px;
 }
